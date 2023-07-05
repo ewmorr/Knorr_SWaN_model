@@ -1,6 +1,6 @@
 library(dplyr)
 
-htemps = read.csv("2021_data/cleaned_hourly_swntemp_2006_2020.csv")
+htemps = read.csv("2021_data/cleaned_hourly_swntemp_2006_2022.csv")
 head(htemps)
 
 dtemp = htemps %>% 
